@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# 🧊 Subscribify – Sleek Checkout Flow UI
 
-## Project info
+[Live Demo 🚀](https://subscribify-beryl.vercel.app/)
 
-**URL**: https://lovable.dev/projects/77b61c05-a6a1-47cf-95c5-94822e2034cf
+Subscribify is a modern, glassmorphism-style checkout UI flow built for a UI hackathon. It includes a clean and elegant design with smooth transitions, a cart summary, secure payment section, and confirmation screen — perfect for SaaS subscriptions and e-commerce flows.
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+- 🛒 Cart Summary
+- 💳 Payment Form
+- ✅ Order Confirmation
+- 🎨 Glassmorphism design
+- 🎞️ Smooth animations and transitions
+- 📱 Fully responsive
 
-**Use Lovable**
+## 🛠️ Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/77b61c05-a6a1-47cf-95c5-94822e2034cf) and start prompting.
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **GSAP** for animations
+- **Vite** (if used)
+- **ShadCN UI** (optional, if you included components)
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Getting Started
 
-**Use your preferred IDE**
+Clone the repository:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+git clone https://github.com/yourusername/subscribify.git
+cd subscribify
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Install dependencies (if using a bundler like Vite):
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Or open `index.html` directly in your browser if it's a static site.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🗂️ Folder Structure
 
-**Use GitHub Codespaces**
+```
+subscribify/
+├── index.html
+├── style.css
+├── script.js
+├── public/
+│   └── assets (optional images, icons)
+└── README.md
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📦 Deployment
 
-## What technologies are used for this project?
+Deployed on [Vercel](https://vercel.com/):  
+https://subscribify-beryl.vercel.app/
 
-This project is built with:
+## 📄 License
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+MIT License. Feel free to fork, clone, and customize!
 
-## How can I deploy this project?
+## 🙌 Acknowledgments
 
-Simply open [Lovable](https://lovable.dev/projects/77b61c05-a6a1-47cf-95c5-94822e2034cf) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Thanks to the UI Hackathon community and open-source libraries like GSAP for powering smooth animations.
